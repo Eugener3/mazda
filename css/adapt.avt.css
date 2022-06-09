@@ -1,0 +1,12 @@
+@media screen and (max-width: 400px) {
+	.popup {
+		width: 80vw;
+
+		padding: 4.04vw 4.04vw 4.08vw 4.04vw;
+	}
+	.popup-reg {
+		width: 80vw;
+
+		padding: 4.04vw 4.04vw 4.08vw 4.04vw;
+	}
+}

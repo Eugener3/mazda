@@ -1,0 +1,407 @@
+@media screen and (max-width: 1280px) {
+	.d-md-block {
+		padding-bottom: 0px;
+	}
+}
+@media screen and (max-width: 992px) {
+	#search input{
+	width: 7.95vw;
+	height: 2vw;
+
+	padding: 0.16vw 1vw 0.16vw 2.3vw;
+	margin-bottom: 0.51vw;
+	}
+
+	.underslider-text p{
+	font-size: 16px;
+	}
+	.underslider-text h2{
+		font-size: 22px;
+	}
+}
+@media screen and (max-width: 801px) {
+	header {
+		position: fixed;
+
+		width: 100%;
+		height: 10.79vw;;
+
+		z-index: 100;
+	}
+	header:before {
+		content: '';
+
+		position: absolute;
+
+		width: 100%;
+		height: 100%;
+
+		z-index: -1;
+	}
+
+	#logotip {
+		width: 13.4vw;
+		height: 5.75vw;
+		left: 0.99vw;
+		margin: 2.5vw 0vw 2.34vw 0vw;
+	}
+	
+	.search {
+	display: none;
+	}
+
+	#right-header-buttons input{
+	display: none;
+
+	border: none;
+	border-radius: 10px;
+
+	width: 4.95vw;
+	height: 1.76vw;
+
+	font-size: 	0.93vw;
+
+	padding: 0.16vw 0vw 0.16vw 1vw;
+
+	background-color: white; 
+
+	outline: none;
+
+	opacity: 50%;
+
+	transition: 0.25s;
+	}
+	#right-header-buttons input:hover {
+		display: block;
+
+		transition: 0.25s;
+	}
+	#right-right-header-button{
+		display: none;
+	}
+	#right-right-header-button-fake {
+		display: block;
+	}
+	#right-right-header-button-fake img {
+		height: 7.91vw;
+	}
+
+
+
+	.burger-menu-element input {
+		border: none;
+		outline: none;
+	}
+	.burger-menu-element input::placeholder {
+		color: black;
+	}
+	.burger-menu-nav {
+		display: none;
+		height: 100%;
+		width: 100%;
+
+		position: fixed;
+		top: 10.79vw;
+
+		background-color: white;
+
+		padding-top: 4.79vw;
+
+		overflow-y: auto;
+		z-index: 10;
+	}
+	.burger-menu-nav-elements {
+		display: flex;
+		flex-direction: column;
+	}
+	.burger-menu-element {
+		width: 97.5%;
+
+		font-size: 4.5vw;
+
+		margin: 0 0px 10px 10px;
+
+		border-bottom: 1px solid grey;
+
+		transition: 0.25s;
+	}
+	.burger-menu-element:hover {
+
+		border-bottom: 1px solid #97B7E7;
+
+		transition: 0.25s;
+	}
+	.burger-menu-nav-elements a{
+		color: black;
+		text-decoration: none;
+	}
+
+	#underheader {
+	display: none;
+
+	height: 5vw;
+
+	background-color: black;
+	}
+	#underheader-block {
+	width: 80vw;
+
+	padding-bottom: 0.52vw;
+	}
+
+	#carouselExampleCaptions {
+		display: none;
+	}
+
+	#underheader a:hover {
+		color: #8B8B8B;
+
+		transition: 0.25s;
+	}
+	.underslider-text {
+		flex: none;
+		max-width: none;
+
+		padding-bottom: 20px;
+
+		border-bottom: 1px solid black;
+	}
+	.underslider-text p{
+	margin-left: 12px;
+	margin-right: 12px;
+		
+	text-align: justify;
+    line-height: 1.625;
+    font-size: 16px;
+	font-family: "Trebuchet MS", helvetica, arial, sans-serif;
+	}
+	.underslider-text h2{
+		font-family: "Trebuchet MS",  helvetica, arial, sans-serif;
+		font-size: 22px;
+	}
+	.link-menu:before {
+		content: '';
+		width: 100%;
+		height: 0.05vw;
+		background-color: white;
+		position: absolute;
+		left: 0;
+		bottom: -0.16vw;
+		transform: scaleX(1);
+	}
+
+	.slider-fake {
+		display: block;
+
+		background: url(../upload/mazda6.png) no-repeat;
+
+		height: 46.88vw;
+		width: 100vw;
+		background-size: 100% 100%;
+
+		color: white;
+
+		text-align: center;
+	}
+	.slider-fake-bg {
+		padding-top: 10.79vw;
+	}
+	.slider-fake p {
+		font-size: 2.40vw;
+
+		text-shadow: black 1px 0 10px;
+
+		padding-top: 0.21vw;
+	}
+	.slider-fake h5 {
+		font-size: 3.34vw;
+		line-height: 0.2;
+		text-shadow: black 1px 0 10px;
+	}
+
+	.evolution {
+		height: 290.35vw;
+	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		text-align: center;
+		font-family: "Trebuchet MS";
+	
+	}
+	.evo-car {
+		width: 80.28vw;
+
+		margin-top: 30px;
+	}
+	.evo-car > div {
+		height: 15.20vw;
+	}
+	.middle-evo {
+		border-right: none;
+	}
+	.evo-car img {
+		height: 75.16vw;
+	}
+	
+	.evo-car h1 {
+		font-size: 3.67vw;
+	}
+	.evo-car p {
+		font-size: 2.23vw;
+
+		margin-bottom: 5px;
+	}
+	.evo-car h6 {
+		font-size: 2.94vw;
+	
+		top: 0.80vw;
+	}
+	.credit {
+		padding-top: 4.46vw;
+		margin-left: 10.42vw;
+	}
+	.credit-img {
+		height: 36.72vw;
+	
+		border-top: 1px solid black;
+	}
+	.credit p {
+		width: 60.44vw;
+		font-size: 2.54vw;
+	
+		margin-top: 10px;
+		margin-bottom: 20px;
+	}
+	.credit h1 {
+		font-size: 3.5vw;
+		width: 60.04vw;
+	}
+	.credit a {
+		text-decoration: none;
+	
+		padding: 1.5vw 6.6vw 1.5vw 6.6vw;
+	
+		border-radius: 5px;
+
+		font-size: 2.4vw;
+	
+		transition: 0.25s;
+	}
+	.credit a:hover {
+		background-color: white;
+		color: black;
+		transition: 0.25s;
+	}
+
+	footer {
+		height: 0;
+	}
+
+	.footer-flex {
+		display: none;
+	}	
+
+	.accordion {
+		display: block;
+
+		color: black;
+		
+	}
+
+	.accordion-button {
+		background-color: black;
+
+		color: white;
+		font-size: 3vw;
+	}
+	.accordion-body {
+		background-color: black;
+		
+		color: white;
+	}
+	.accordion-link h6 {
+		font-size: 3vw;
+
+		margin-bottom: 10px;
+	}
+	.accordion-item {
+		border: none;
+	}
+
+}
+@media screen and (max-width:550px) {
+	header {
+		position: fixed;
+
+		width: 100%;
+		height: 15.79vw;;
+
+	}
+
+	#logotip {
+		width: 17.4vw;
+		height: 7.75vw;
+		left: 0.99vw;
+		margin: 2.5vw 0vw 2.34vw 0vw;
+	}
+
+	#right-right-header-button-fake img {
+		height: 9.91vw;
+	}
+
+	.credit p {
+		margin-bottom: 5px;
+	}
+
+	.burger-menu-nav {
+		display: none;
+		height: 100%;
+		width: 100%;
+
+		position: fixed;
+		top: 15.79vw;
+
+		background-color: white;
+
+		padding-top: 4.79vw;
+
+		overflow-y: auto;
+		z-index: 10;
+	}
+	.burger-menu-element {
+		font-size: 5.5vw;
+
+		margin: 0 0px 10px 10px;
+	}
+	
+	.slider-fake-bg {
+		padding-top: 15.79vw;
+	}
+
+	.slider-fake p {
+		font-size: 3.70vw;
+
+		text-shadow: black 1px 0 10px;
+
+		padding-top: 0.21vw;
+	}
+	.slider-fake h5 {
+		font-size: 6.34vw;
+		line-height: 0.2;
+		text-shadow: black 1px 0 10px;
+	}
+
+	.evolution {
+		height: 300.35vw;
+	
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		text-align: center;
+		font-family: "Trebuchet MS";
+	
+	}
+}

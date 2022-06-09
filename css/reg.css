@@ -1,0 +1,109 @@
+.popup-reg-bg {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background: #151414;
+	display: block;
+	z-index: 10;
+}
+.popup-reg {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	background-color: black;
+	padding: 20px 20px 40px 20px;
+	transform: translate(-50%, -50%);
+	padding-top: 25px;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid white;
+}
+.form-popup-reg {
+	display: flex;	
+	align-items: center;
+    flex-direction: column;
+}
+.form-popup-reg input {
+	margin-top: 25px;
+}
+.form-popup-reg a, .form-popup-reg a {
+	color: white;
+
+	text-decoration: none;
+
+	transition: 0.25s;
+}
+.form-popup-reg a:hover, .form-popup-reg a:hover {
+	text-decoration: underline;
+}
+.form-popup-reg p, .form-popup-reg p {
+	color: #727272;
+
+	text-decoration: none;
+}
+#close-popup {
+	position: absolute;
+	top: 15px;
+	right: 15px;
+	width: 14px;
+	cursor: pointer;
+}
+.popup-reg h3 {
+	text-align: center;
+	color: white;
+
+	margin-bottom: 25px;
+}
+.popup-reg p{
+	display: inline;
+	text-align: center;
+}
+.popup-reg form{
+	display: inline-block;
+}
+.popup-reg input {
+	border: none;
+	border-radius: 10px;
+	border: 3px solid black;
+
+	padding: 5px 5px 5px 5px;
+
+	cursor: text;
+	background-color: white;
+	outline: none;
+
+	transition: 0.25s;
+}
+.popup-reg input:hover {
+	border: 3px solid #97B7E7;
+	transition: 0.25s;
+}
+.popup-reg input:focus {
+	border: 3px solid #ff4d4d;
+	transition: 0.25s;
+}
+#avt-but {
+	border: none;
+	border-radius: 10px;
+
+	cursor: pointer;
+
+	background-color: #ff4d4d;
+
+	width: 197px;
+
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding: 5px 5px 5px 5px;		
+
+	font-family: "Trebuchet MS";
+	font-weight: bold;
+	transition: 0.25s;
+}
+#avt-but:hover {
+	background-color: #ff0d0d;
+	transition: 0.25s;
+}

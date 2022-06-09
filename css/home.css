@@ -1,0 +1,182 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+header {
+    background-color: black;
+    height: 4.79vw;
+
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#logotip {
+	width: 6.4vw;
+	height: 2.75vw;
+	left: 0.99vw;
+	margin: 2.5vw 0vw 2.34vw 0vw;
+}
+#search input{
+    border: none;
+    border-radius: 10px;
+
+    width: 4.95vw;
+    height: 1.76vw;
+
+    font-size:  0.93vw;
+
+    padding: 0.16vw 0vw 0.16vw 1vw;
+
+    background-color: white; 
+
+    outline: none;
+
+    opacity: 50%;
+
+    transition: 0.25s;
+}
+#search input:hover, #search input:focus {
+    text-align: left;
+    width: 15.63vw;
+    opacity: 100%;
+    transition: 0.25s;
+}
+#right-header-buttons {
+    display: flex;
+
+    align-items: center;
+
+    position: relative;
+
+    right: 0.60vw;
+}
+
+#urname {
+    font-size: 1.5vw;
+    font-family: "Trebuchet MS";
+    color: white;
+
+    margin-right: 0.64vw;
+}
+.dropdown-item {
+    color: white;
+}
+.log img {
+    width: 3vw;
+}
+.mazda {
+        position: relative;
+
+        display: block;
+        background: url("../upload/loop/rx7.gif") no-repeat;
+        height: 55.88vw;
+        width: 100vw;   
+        background-size: 100% 100%;
+        padding-top: 4.79vw;
+        border: none;
+        text-align: center;
+
+}
+.popup-bg {
+
+	display: block;
+	z-index: 10;
+}
+.popup {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 400px;
+	background-color: black;
+	padding: 20px 20px 40px 20px;
+	transform: translate(-50%, -50%);
+	padding-top: 25px;
+	border-radius: 5px;
+	text-align: center;
+	border: 1px solid white;
+}
+.settings {
+	width: 50px;
+
+	margin: 0 auto;
+	padding-bottom: 10px;
+
+	border-bottom: 1px solid white;
+}
+h3 {
+    padding-top: 0.81vw;
+
+    text-align: center;
+}
+content{
+    color: white;
+    text-align: center;
+}
+button, input {
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 0.26vw 0.52vw 0.52vw 0.52vw;
+    margin-top: 10px;
+
+    background-color: #97B7E7;
+
+    transition: 0.6s;
+}
+button:hover, input:hover {
+    background-color: #FF0D0D;
+
+    transition: 0.6s;
+}
+footer {
+    /*height: 12.48vw;*/
+
+    padding-bottom: 30px;
+
+    background-color: black;
+    color: white;
+}
+.footer-flex {
+    display: flex;
+    justify-content: center;
+
+}
+.footer-flex-element h5{
+    font-size: 1.04vw;
+
+    margin-right: 3.91vw;
+    margin-top: 2.60vw;
+    padding-right: 3.91vw;
+    padding-bottom: 0.42vw;
+
+    border-bottom: 1px solid #565656;
+}
+footer h6 {
+    font-size: 0.73vw;
+    margin-top: 0.52vw;
+}
+footer a {
+    text-decoration: none;
+    color: #8B8B8B;
+    transition: 0.25s;
+}
+footer a:hover {
+    color: white;
+    transition: 0.25s;
+}
+
+
+@media screen and (max-width: 1000px) {
+    .image h1 {
+        font-size: 3.25vw;
+    }
+    button {
+    font-size: 2vw;
+
+    padding: 1vw 1vw 1vw 1vw;
+    margin-top: 4vw;
+    }
+}
